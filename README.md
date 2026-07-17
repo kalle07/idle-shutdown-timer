@@ -1,7 +1,7 @@
 
 # idle-shutdown-timer
 
-simple downlaod exe and start(need admin righs), GUi open , chose a time and "Start"<br>
+=> download exe and start(need admin righs), GUi open , chose a time and "Start"<br>
 shows icon in taskbar<br><br>
 
 multiple check idle shut down timer<br>
