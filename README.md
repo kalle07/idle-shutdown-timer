@@ -6,7 +6,7 @@ shows icon in taskbar<br><br>
 
 multiple check idle shut down timer<br>
 
-  Idle Check Logic (3 × 5s polls = 15s window):<br>
+  Idle Check Logic (3 polls within 15s window, every 5s):<br>
   When will idle timer Reset:<br>
   ⌨/🖱	Mouse/keyboard/touch activity.<br>
   🖥	CPU: Active if ANY poll has ≥1 core >50% OR total usage >12.5% × cores.<br>
