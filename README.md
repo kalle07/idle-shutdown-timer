@@ -8,9 +8,9 @@ multiple check idle shut down timer<br>
 
   Idle Check Logic (3 polls within 15s window, every 5s):<br>
   When will idle timer Reset:<br>
-  ⌨/🖱	Mouse/keyboard/touch activity.<br>
-  🖥	CPU: Active if ANY poll has ≥1 core >50% OR total usage >12.5% × cores.<br>
-  🌐	Network: Active if ALL polls show ≥1 MB/s on at least one NIC.<br>
+  ⌨/🖱	Mouse/Keyboard/Touch any activity.<br>
+  🖥	CPU: Active if ANY of the last 3 polls has ≥1 core >50% OR total usage >12.5% × cores.<br>
+  🌐	Network: Active if ALL last 3 polls show ≥1 MB/s on at least one NIC.<br>
   ⚠️  Discrete GPU workloads mostly uses one core >50%.<br>
   ⚠️  Virus-scan or Backups mostly uses one core >50%<br>
   🛑  What is not included: some streaming videos or watching local videos!<br>
