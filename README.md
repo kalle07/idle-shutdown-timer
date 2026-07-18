@@ -11,9 +11,9 @@ multiple check idle shut down timer<br>
   ⌨/🖱	Mouse/keyboard/touch activity.<br>
   🖥	CPU: Active if ANY poll has ≥1 core >50% OR total usage >12.5% × cores.<br>
   🌐	Network: Active if ALL polls show ≥1 MB/s on at least one NIC.<br>
-  ⚠️	Note: Discrete GPU workloads mostly uses one core >50%.<br>
-      Virus-scan or Backups mostly uses one core >50%<br>
-      What is not included: streaming videos or watching local videos!<br>
+  ⚠️  Note: Discrete GPU workloads mostly uses one core >50%.<br>
+  ⚠️  Virus-scan or Backups mostly uses one core >50%<br>
+  🛑  What is not included: streaming videos or watching local videos!<br>
  
 <br>
 Useful for anyone who, for example, starts a long download, a simulation, or a training session, so that the computer shuts down, say, 5 minutes after the task is completed. Or perhaps you’re not sure whether you’ll be back in an hour, so you set the timer<br><br>
